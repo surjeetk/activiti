@@ -13,7 +13,7 @@ http://localhost:8090/process?processId=vacationRequestRevised
 {
   "numberOfDays": 12,
   "startDate": "13-09-17",
-  "vacationMotivation": "Aaram mangtaye....",
+  "vacationMotivation": "Need some rest....",
  "employeeName" : "fozzie"
 }
 
@@ -23,10 +23,10 @@ http://localhost:8090/claimTask
   "27519": "gonzo"
 }
 
-
+POST:
 http://localhost:8090/completeTask?taskId=27519
 
 {
   "vacationApproved":"true",
-  "managerMotivation":"le maze"
+  "managerMotivation":"request is approved"
 }
